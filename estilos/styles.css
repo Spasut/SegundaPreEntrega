@@ -1,0 +1,115 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.ancla { 
+  text-decoration: none;
+  border: rgba(255, 0, 0, 0.776) solid 10px;border-radius: 20%;
+  padding: 1%;
+  background-color:black;
+}
+ 
+.imagengal {
+margin-top: 80px;
+width: 250px;
+height: 350px;
+border-radius: 10px;
+transition:transform 1s;
+  }
+
+.imagengal:hover{
+  transform:translate(100px, 100px) scale(1.5,1.5);
+  background-color: turquoise; 
+}
+
+
+.titulo{ 
+color: rgb(174, 6, 6);
+
+font-size: 2em;
+margin-top: 15vh;
+}
+
+.barranav{
+display: flex;
+position:absolute;
+margin-top: 1vh;
+width: 100vw;
+
+}
+
+.fotoRulos { width: 100vw;
+  height: 100vh;
+  background:url("../imagenes/fotogrulos.jpg");
+  background-size: cover;
+  background-position: center;
+} 
+.parrafo {
+
+ color: rgb(174, 6, 6);
+ font-size:1.5rem;
+position: absolute;
+margin-top: 130vh;
+ text-align: center;
+}
+
+ .body_galeria {background-color: rgba(200, 16, 16, 0.407);
+}
+
+.body_tienda {background-image:url("../imagenes/calaveramexico\ \(1\).jpg");
+background-size: cover;
+height: 100vh;
+}
+.listatienda { 
+  list-style:url("../imagenes/shoppingcart_80945.png");
+  position: relative;
+  margin-top: 300px;
+  margin-left: 140px;
+  font-weight:bolder;
+}
+.mainindex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social{
+  width:20vw;
+  height: 10vh;
+  display:flex;
+
+
+  margin-left: 40vw;
+   padding: 10px;
+  border-radius:10px;
+
+
+}
+.social >a{
+  width:40%;
+  font-size:2rem;
+  box-shadow: rgb(190, 59, 166) 3px 3px 6px 0px, rgba(255,255,255) -3px -3px 6px 1px;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  background:rgb(9, 9, 9);
+  margin:20px;
+  transition: 0.4s;
+}
+.social >a:hover{
+ transform:translateY(-10px);
+ color: var(--color);
+}
+.social_piedepag {
+  margin-top:800px;
+}
+.piedepag {
+  margin-top:65vh;
+}
